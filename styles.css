@@ -23,12 +23,15 @@ body{
 }
 
 .quadrado {
-    height: 55px;
-    width: 55px; 
-    background-color: #ccc; 
-    border-radius: 5px;
-    border: 0;
-    margin: 0 10px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.q1, .q2, .q3 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    ma
