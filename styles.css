@@ -11,3 +11,12 @@ body{
     padding: 1%;
     height: 50px; 
 }
+
+.grandelado {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center;
+    padding: 2%;
+    width: 50%; 
+    height: 90%;
+}
