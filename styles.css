@@ -34,5 +34,5 @@ body{
     cursor: pointer;
     outline: none;
     transition: 0.3s;
-}
+    color: chartreuse;
 }
