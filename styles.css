@@ -1,3 +1,14 @@
 body{
     background-color: aqua;
 }
+
+.supeior{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    height: 50px; 
+}
+}
