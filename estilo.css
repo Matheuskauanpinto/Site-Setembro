@@ -24,8 +24,7 @@ body {
     text-align: center;
     padding: 2%;
     width: 140px;
-    height: 100%;
-    flex-shrink: 0;
+    height: 100%; 
 }
 
 .quadrado {
