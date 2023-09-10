@@ -1,53 +1,67 @@
 body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
     background-color: aqua;
-    margin: 0; 
-}
-
-.sup {
-    background-color: #333;
-    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    height: 50px;
-    width: 100%;
+    padding: 10px;
 }
 
-.grande {
+.logo, .menu {
+    background-color: pink;
+    padding: 5px 10px;
+}
+
+.content {
     display: flex;
 }
 
-.grandelado {
-    background-color: #ff0000;
-    color: #fff;
-    text-align: center;
-    padding: 2%;
-    width: 140px;
-    height: 1000px; 
-}
-
-.quadrado {
+.left {
+    background-color: red;
+    width: 30%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: column;
-    height: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.q1, .q2, .q3 {
+.blue-square {
+    background-color: blue;
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: blue;
-    margin: 2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
 }
 
-.grandemeio{
-    background-color: #35ee07;
-    color: #fff;
+.right {
+    background-color: lightgray;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-square {
+    background-color: pink;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title, .content {
+    background-color: lightblue;
+    width: 80%;
+    padding: 10px;
     text-align: center;
-    width: 1000px;
-    height:1000px; 
 }
-
-
