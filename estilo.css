@@ -16,6 +16,14 @@ body {
     padding: 5px 10px;
 }
 
+.menu {
+    background-color: pink;
+    padding: 5px 10px;
+    float: right;
+
+
+}
+
 .content {
     display: flex;
 }
