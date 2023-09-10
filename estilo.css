@@ -11,7 +11,7 @@ body {
     padding: 10px;
 }
 
-.logo, .menu {
+.logo {
     background-color: pink;
     padding: 5px 10px;
 }
