@@ -1,18 +1,74 @@
-body{
-    background-color: aqua;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.supeior {
-    background-color: #333;
-    color: #fff;
+.header {
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    height: 50px; 
+    padding: 10px;
 }
 
+.logo {
+    background-color: pink;
+    padding: 5px 10px;
+}
 
+.menu {
+    background-color: pink;
+    padding: 5px 10px;
+    float: right;
+    margin-left: 10px; /* Adiciona um espaço entre os itens do menu */
+}
 
+.content {
+    display: flex;
+}
 
-    
+.left {
+    background-color: red;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue-square {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.right {
+    background-color: lightgray;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-square {
+    background-color: pink;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title, .content {
+    background-color: lightblue;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+}
